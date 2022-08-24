@@ -1,0 +1,102 @@
+.expenseForm
+{
+    display: flex;
+    width: 60vw;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 9, 248);
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 2.5rem 0;
+}
+
+.formHead 
+{
+    
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 35vw;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+.formDate
+{
+   
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.formAmount 
+{
+    
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formSubmit
+{
+    
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form , label 
+{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+form , .formInput
+{
+    width: 25rem;
+    height: 2rem;
+}
+.inputDate 
+{
+    position: relative;
+    right:13.5rem;
+    
+    
+}
+
+.formInputDate
+{
+    height: 2.2rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.inputDate-1 
+{
+    position: relative;
+    right:4rem
+}
+.button 
+{
+    width: 5rem;
+    height: 2.5rem;
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border-radius: 0.5rem;
+
+}

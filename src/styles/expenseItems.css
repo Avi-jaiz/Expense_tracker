@@ -1,0 +1,55 @@
+.expense-item 
+{
+    
+    width: 60vw;
+    height:8rem;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 0.8rem;
+    box-shadow: inset 2px 8px 20px rgb(26, 51, 63);
+    padding: 0.2rem 0;
+    border: 0.1rem solid rgb(17, 118, 234);
+
+    
+
+}
+
+
+.expense-item__title
+{
+     font-weight: 600;
+     font-size: 1rem;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.expense-item__price 
+{
+    font-size: 1rem;
+    background-color: blueviolet;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    width: 10rem;
+    width: fit-content;
+    height: 2.5rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: 600;
+    border: 0.1rem solid white;
+
+
+}
+
+.buttonDelete 
+{
+    width: 5rem;
+    height: 2.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border-radius: 0.5rem;
+
+}
