@@ -34,32 +34,30 @@ const filterChangeHandler = (selectedYear)=>
 {
   setFilteredYear(selectedYear)
 }
-console.log(filteredYear)
+
+const filteredExpenses = expenses.filter((expenses=>
+  {
+      return expenses.date.getFullYear().toString()===filteredYear
+  }))
 
   return (
     <Card className="App" >
       <NewExpenses onAddExpense ={addExpenseHandler}/>
       <ExpensesFilter  selected={filteredYear} onChangeFilter = {filterChangeHandler}/>
 
+{filteredExpenses.length===0?<p style={{color:'white',fontSize:'2rem'}}>No record Found</p>:(
+  filteredExpenses.map((item,index)=>
+  {
+    return (
+      <ExpenseItems 
+      title={item.title}
+      amount={item.amount}
+      date={item.date}
 
-
-{expenses.map((item,index)=>
-{
- 
-   return(
-    <div key ={expenses[index].id.toString()}>
-<ExpenseItems 
-title = {item.title}
-amount = {item.amount}
-
-date ={item.date} 
-
-/>
-    </div>
-
-   
-   )
-})}
+      />
+    )
+  })
+)}
     
     
     </Card>
