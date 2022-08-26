@@ -3,6 +3,7 @@ import ExpensesForm from './ExpensesForm';
 
 function NewExpenses(props)
 {
+    
     const saveExpenseData=(enteredExpenseData)=>
     {
             const expenseData = {
@@ -13,6 +14,8 @@ function NewExpenses(props)
 
             props.onAddExpense(expenseData)
     }
+
+   
 
     return(
 <div className="newExpenses">

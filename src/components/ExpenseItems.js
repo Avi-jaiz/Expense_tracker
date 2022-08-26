@@ -8,7 +8,7 @@ function ExpenseItems(props)
     const [title,setTitle] = useState(props.title);
     const handleClick = ()=>
     {
-         setTitle('washing')
+        //  setTitle('washing')
          console.log(title)
     }
 
